@@ -3,6 +3,8 @@
 This project focuses on recognizing American Sign Language (ASL) gestures using a combination of Convolutional Neural Networks (CNN) and Fuzzy Logic for enhanced prediction accuracy. The system is designed to predict 25 ASL letters (A-Y) from hand gesture images, ensuring robustness and reliability even in challenging or uncertain scenarios.
 
 # Dataset
+
+Link to the Dataset:- https://www.kaggle.com/datamunge/sign-language-mnist
 The dataset used in this project consists of grayscale images representing different ASL letters. These images were preprocessed to standardize their size to 28x28 pixels, enabling efficient computation and uniformity across the inputs. The preprocessing steps also included normalizing pixel values to a range of 0 to 1, reshaping the images to a 28x28x1 format suitable for CNN input, and applying data augmentation techniques such as rotation, shifting, and zooming to improve the model's generalization capability.
 
 
